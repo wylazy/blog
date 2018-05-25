@@ -1,4 +1,7 @@
 # hexo 博客源码
+
+网站地址: [http://www.wangyulong.com/](http://www.wangyulong.cn)
+
 环境安装：
 
 1. 配置主题为 maupassant
