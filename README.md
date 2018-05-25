@@ -1,6 +1,6 @@
 # hexo 博客源码
 
-网站地址: [http://www.wangyulong.com/](http://www.wangyulong.cn)
+网站地址: [http://www.wangyulong.cn/](http://www.wangyulong.cn)
 
 环境安装：
 
