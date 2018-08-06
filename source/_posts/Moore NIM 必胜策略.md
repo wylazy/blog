@@ -2,6 +2,7 @@
 id: 1527563667
 title: Moore NIM 必胜策略
 date: 2018-05-29 11:14:27
+categories: 算法
 tags:
   算法
 mathjax2: true
