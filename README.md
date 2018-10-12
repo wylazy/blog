@@ -18,3 +18,17 @@ npm install hexo-renderer-mathjax2 --save
 npm install hexo-generator-feed --save
 ```
 用 hexo generate 就会自动生成 RSS ，放在 public/atom.xml
+
+4. 为使用Graphviz，需要安装一下插件
+```
+brew install graphviz
+npm install hexo-tag-graphviz --save
+```
+使用如下代码生成图片
+```
+{% graphviz "Caption of the graphviz" %}
+digraph {
+  A -> B;
+}
+{% endgraphviz %}
+```
