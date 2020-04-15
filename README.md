@@ -4,6 +4,16 @@
 
 环境安装：
 
+```
+npm install hexo --save
+npm install hexo-server --save
+
+git clone https://github.com/tufu9441/maupassant-hexo.git themes/maupassant # 下载主题
+npm install hexo-renderer-sass --save
+npm install hexo-renderer-jade --save
+
+```
+
 1. 配置主题为 maupassant
 相关配置请参考 [maupassant](https://github.com/tufu9441/maupassant-hexo)
 
@@ -15,7 +25,7 @@ npm install hexo-renderer-mathjax2 --save
 ```
 3. 为产生 RSS，需要安装以下插件
 ```
-npm install hexo-generator-feed --save
+# npm install hexo-generator-feed --save # 和hexo3不兼容，不安装
 ```
 用 hexo generate 就会自动生成 RSS ，放在 public/atom.xml
 
@@ -31,4 +41,11 @@ digraph {
   A -> B;
 }
 {% endgraphviz %}
+```
+
+5. 常用命令
+```
+hexo # 显示帮助
+hexo init blog # 初始化
+hexo generate # 生成静态文件
 ```
